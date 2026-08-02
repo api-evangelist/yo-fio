@@ -1,7 +1,27 @@
 aid: yo-fio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yo-fio.png
 name: Yo Fio
-description: Yo Fio is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: YoFio is a Mexican fintech founded in 2019 that provides working-capital
+  credit to micro and small businesses, particularly neighborhood corner stores (tienditas).
+  Through a mobile app and web platform it offers revolving credit lines of 7,000 to
+  200,000 Mexican pesos with up to 14 days of interest-free financing so merchants can
+  restock inventory and pay suppliers. YoFio uses AI-powered machine-vision technology
+  to assess creditworthiness from photos and videos of a store and its inventory, cutting
+  the evaluation process to roughly 15 minutes. It is backed by 500 Global and Oikocredit,
+  and serves thousands of businesses across the Valley of Mexico, Puebla, and Guadalajara.
+  YoFio publishes no public API or developer platform; this profile captures its identity
+  and public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/yo-fio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Lending
+- Credit
+- SME Finance
+- Financial Inclusion
+- Microfinance
+- Mexico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/yo-fio-domain-security.yml
 - type: Website
   url: https://yofio.co
+- type: Blog
+  url: https://blog.yofio.app/
+- type: PrivacyPolicy
+  url: https://mx.yofio.app/aviso-de-privacidad
+- type: SignUp
+  url: https://prod.registration-lp.web.yofio.app/home
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
