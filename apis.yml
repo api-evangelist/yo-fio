@@ -34,6 +34,9 @@ description: YoFio is a Mexican fintech founded in 2019 that provides working-ca
   YoFio publishes no public API or developer platform; this profile captures its identity
   and public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/yo-fio/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "YoFio publishes no public API or developer platform; this profile captures its identity and public web surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
